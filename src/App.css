@@ -9,3 +9,18 @@
 .bold {
   font-weight: bold;
 }
+
+/* just an example of using vars */
+:root {
+  --color_red: #e21111;
+  --color-transparent: transparent;
+}
+body {
+  background: var(--color-transparent);
+}
+
+@media (max-width: 375px) {
+  .App button {
+    width: 70%;
+  }
+}
