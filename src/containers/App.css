@@ -2,14 +2,6 @@
   text-align: center;
 }
 
-.red {
-  color: red;
-}
-
-.bold {
-  font-weight: bold;
-}
-
 /* just an example of using vars */
 :root {
   --color_red: #e21111;
